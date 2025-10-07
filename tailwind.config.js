@@ -11,39 +11,73 @@ export default {
   theme: {
     extend: {
      colors: {
-        'primary': {
-          50: '#e8f7ec',   // Very light green
-          75: '#e0f6e5',
-          100: '#d1eedb',  // Light green
-          200: '#a8dfb6',  // Soft green
-          300: '#7ecfa3',  // Medium-light green
-          400: '#55bf90',  // Medium green
-          500: '#2ca16e',  // Base primary green
-          600: '#258a5c',  // Slightly darker green
-          700: '#1e734a',  // Dark green
-          800: '#175c38',  // Very dark green
-          900: '#104526',  // Almost black green
-          950: '#082413',  // Deepest green
+        // Primary brand colors
+        'zeleman-orange': {
+          50: '#fff7f5',
+          100: '#ffede8',
+          200: '#ffd9cc',
+          300: '#ffbaa0',
+          400: '#ff8c66',
+          500: '#ff6b35', // Main brand color
+          600: '#f15a22',
+          700: '#e14710',
+          800: '#c13a0a',
+          900: '#a02f08',
         },
-        'primary-green': '#307F38',
-        'dark-green': '#1F3D2B',
-        'light-green': '#8CFF65',
-        'accent-green': '#44874b',
-        'off-white': '#f9f9f9',
-        'text-gray': '#333333',
-        'secondary-text': '#D1D5DC',
-        'border-gray': '#e9ecef',
-        'card-bg': '#ffffff',
-        'dark-card-bg': '#1a2a1a',
-        'button-primary': '#1e8a36',
-        'button-secondary': '#5cb85c',
-        'highlight-yellow': '#f0ad4e',
-        'success-green': '#28a745',
-        'danger-red': '#dc3545',
-        'info-blue': '#17a2b8',
-        'text-neutral': '#4B5768',
-        'green-lite':"#46a619",
-        'transparent-green':"#00B82D1F"
+        'zeleman-dark': {
+          50: '#f6f6f6',
+          100: '#e7e7e7',
+          200: '#d1d1d1',
+          300: '#b0b0b0',
+          400: '#888888',
+          500: '#6d6d6d',
+          600: '#5d5d5d',
+          700: '#4f4f4f',
+          800: '#454545',
+          900: '#2d2d2d', // Main dark color
+        },
+        // Success / Growth color (for trend arrow)
+        'zeleman-success': {
+          50: '#ecfdf5',
+          100: '#d1fae5',
+          200: '#a7f3d0',
+          300: '#6ee7b7',
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
+          900: '#064e3b',
+        },
+        // Background & Accent
+        'zeleman-beige': {
+          50: '#fdf9f6',
+          100: '#f7f0eb',
+          200: '#f7e9e5', // Used in bg
+          300: '#f3dccf',
+          400: '#eecbad',
+          500: '#e9b58a',
+        },
+        // Accent orange for badge
+        'zeleman-accent': {
+          500: '#fb9f6d', // Badge orange from original design
+        },
+        // Text & UI
+        'zeleman-gray': {
+          100: '#f3f3f5',
+          200: '#e9ebef',
+          300: '#d1d5dc',
+          400: '#99a1af',
+          500: '#717182',
+          600: '#4a5565',
+          700: '#302f2f',
+        },
+        // Optional extras
+        'zeleman-yellow': '#fff085',
+        'zeleman-red': '#ff4d4d',
+        'zeleman-blue': '#4d7cff',
+        'zeleman-green': '#4dff88',
+        'zeleman-light': '#fff7ed',
       },
     },
     screens: {
