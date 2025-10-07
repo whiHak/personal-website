@@ -1,2 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@config "../../../tailwind.config.js";
+@theme {
+  /* --font-inter: "Poppins", "sans-serif"; */
+  --default-font-family: "Roboto";
+  /* Colors */
+  /* --color-primary: #25324a;
+  --color-primary-100: #191818;
+  --color-primary-200: #5D819A;
+  --color-primary-300: #141414;
+  --color-primary-400: #010101;
+  --color-secondary: #e83a41;
+  --color-tertiary: #828ea2;
+  --color-tertiary-dark: #55758B;
+  --color-tertiary-medium: #5D819A;
+  --color-gray-light: #EDEDED;
+  --color-green: #0D6D40;
+  --color-green-100: #1DB26C;
+  --color-yellow-100: #FACF09; */
+
+  
+  --container-padding: 4rem;
+
+  /* screens */
+  --breakpoint-*: initial;
+  --breakpoint-5xs: 320px;
+  --breakpoint-xs: 360px;
+  --breakpoint-3xl: 380px;
+  --breakpoint-2xs: 420px;
+  --breakpoint-mxs: 512px;
+  --breakpoint-sm: 480px;
+  --breakpoint-mmd: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-mdx: 800px;
+  --breakpoint-mdxx: 850px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-mlg: 1280px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-2xlx:1600px;
+  --breakpoint-3xl: 1852px;
+  --breakpoint-3xsl: 1920px;
+  --breakpoint-4xl: 2560px;
+  --breakpoint-5xl: 2870px;
+}
+
+@layer utilities {
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* scroll bar */
+  .scrollbar-hidden {
+    scrollbar-width: none;
+  }
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #25324a;
+  }
+  ::-webkit-scrollbar-track {
+    background: #5D819A;
+  }
+  /* Custom: Footer gradient with larger dark region */
+  .bg-footer-gradient {
+    background-image: linear-gradient(to right, var(--color-tertiary-dark) 0% 75%, var(--color-tertiary-medium) 75% 100%);
+  }
+
+  html {
+    --scroll-behavior: smooth!important;
+    scroll-behavior: smooth!important;
+    }
+}
