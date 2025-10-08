@@ -45,12 +45,12 @@ const isActive = (path) => {
         <!-- Logo -->
         <div class="flex items-center">
           <div id="logo" class="flex-shrink-0 flex items-center">
-            <NuxtLink to="/" class="text-2xl font-bold text-gray-800 mr-2">
+            <NuxtLink to="/" class="text-3xl font-bold text-gray-800 mr-2">
               <span>
                 Betselot
               </span>
             </NuxtLink>
-            <NuxtLink to="/" class="text-2xl font-bold text-zeleman-orange-500">
+            <NuxtLink to="/" class="text-3xl font-bold text-zeleman-orange-500">
               <span>
                 Abraham 
               </span>
@@ -135,10 +135,10 @@ const isActive = (path) => {
           <template #content>
             <div class="min-w-96 min-h-96 size-full space-y-10 m-4">
               <div id="logo" class="flex-shrink-0 flex items-center">
-            <NuxtLink to="/" class="text-lg font-bold text-gray-800 mr-2">
+            <NuxtLink to="/" class="text-2xl font-bold text-gray-800 mr-2">
                 Betselot
             </NuxtLink>
-            <NuxtLink to="/" class="text-lg font-bold text-zeleman-orange-500">
+            <NuxtLink to="/" class="text-2xl font-bold text-zeleman-orange-500">
                 Abraham 
             </NuxtLink>
             <Icon name="ic:round-verified" class="inline h-6 w-6 text-zeleman-orange-500 ml-2" />
@@ -322,6 +322,7 @@ const isActive = (path) => {
     </div>
   </nav>
 </template>
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 #logo {
