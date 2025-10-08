@@ -220,14 +220,14 @@ const isActive = (path) => {
 
               <!-- Social Media Icons -->
               <div class="md:hidden items-center flex space-x-4">
-                <!-- <div
+                <div
                   class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
                 >
                   <Icon
-                    name="iconoir:youtube"
+                    name="mdi:github"
                     class="h-5 w-5 text-zeleman-orange-500"
                   />
-                </div> -->
+                </div>
                 <div
                   class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
                 >
@@ -255,11 +255,11 @@ const isActive = (path) => {
         </UDrawer>
         <!-- Social Media Icons -->
         <div class="lg:flex items-center hidden space-x-4">
-          <!-- <div
+          <div
             class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
           >
-            <Icon name="mdi:youtube" class="h-5 w-5 text-zeleman-orange-500" />
-          </div> -->
+            <Icon name="mdi:github" class="h-5 w-5 text-zeleman-orange-500" />
+          </div>
           <div
             class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
           >
@@ -296,11 +296,11 @@ const isActive = (path) => {
             ref="dropdownRef"
             class="absolute right-4.5 top-16 lg:flex flex-col items-center space-y-4"
           >
-            <!-- <div
+            <div
               class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform"
             >
-              <Icon name="iconoir:youtube" class="h-5 w-5 text-zeleman-orange-500" />
-            </div> -->
+              <Icon name="mdi:github" class="h-5 w-5 text-zeleman-orange-500" />
+            </div>
             <div
               class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer hover:scale-110 transition-transform"
             >
