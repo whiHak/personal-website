@@ -76,7 +76,7 @@ onUnmounted(() => {
 
 <template>
     <section
-        class="relative overflow-hidden max-w-[1920px] min-h-[500px] px-5 md:px-40 bg-white lg:min-h-[750px] 2xl:min-h-[790px]  mx-auto">
+        class="relative overflow-hidden max-w-[1920px] min-h-[500px] px-5 2xl:px-40 bg-white lg:min-h-[710px] 2xl:min-h-[790px]  mx-auto">
         <!-- Gradient Overlay on the Left Side -->
         <div
             class="absolute top-0 left-0 w-[80%] lg:w-[70%] h-full z-30 bg-gradient-to-r from-zeleman-orange-200 via-accent-green to-primary-green/0">
@@ -84,7 +84,7 @@ onUnmounted(() => {
 
         <div class="relative mx-auto">
             <div
-                class="grid grid-cols-1 lg:grid-cols-2 gap-12 min-h-[590px] md:min-h-[620px] lg:min-h-[750px] items-center">
+                class="grid grid-cols-1 lg:grid-cols-2 gap-12 min-h-[590px] md:min-h-[620px] lg:min-h-[680px] xl:min-h-[750px] items-center">
                 <!-- Left Section: Hero Content -->
                 <div class="2xl:px-20 sm:px-10 py-10 md:py-16 2xl:py-32 z-30">
                     <h1 class="text-4xl md:text-5xl 2xl:text-6xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">

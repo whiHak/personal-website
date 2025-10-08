@@ -65,7 +65,7 @@ onUnmounted(() => {
         />
       </div>
       <!-- iPhone Frame -->
-      <div class="relative -left-30 top-40 z-200 w-[120px] md:w-[250px] aspect-[9/19] flex items-center justify-center">
+      <div class="relative -left-30 top-40 z-20 w-[120px] md:w-[250px] aspect-[9/19] flex items-center justify-center">
         <img
           src="/images/Iphone-frame.png"
           alt="iPhone Frame"
