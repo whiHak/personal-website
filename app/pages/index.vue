@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import HowCanIHelp from '~/components/landing/HowCanIHelp.vue';
-
 </script>
 
 <template>
