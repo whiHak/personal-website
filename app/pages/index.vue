@@ -13,7 +13,7 @@ import HowCanIHelp from '~/components/landing/HowCanIHelp.vue';
 
          <LandingSmartFolks />
 
-         <LandingHello />
+         <LandingHelloSection />
 
          <LandingTestimonials />
     </div>
