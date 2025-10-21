@@ -81,24 +81,24 @@ onUnmounted(() => {
             class="absolute top-0 left-0 w-[80%] lg:w-[70%] h-full z-30 bg-gradient-to-r from-zeleman-orange-200 via-accent-green to-primary-green/0">
         </div>
 
-        <div class="fixed md:absolute top-30 left-5 2xl:left-25 flex flex-col gap-8 z-30">
+        <div class="absolute top-20 md:top-30 left-5 2xl:left-25 flex flex-row md:flex-col gap-4 md:gap-8 z-30">
             <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="group">
-                <span class="flex items-center justify-center w-10 h-10 rounded-full bg-[#0077B5] hover:scale-110 transition-transform shadow-lg">
+                <span class="flex items-center justify-center w-6 md:w-10 h-6 md:h-10 p-1 rounded-full bg-[#0077B5] hover:scale-110 transition-transform shadow-lg">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.88v1.23h.04c.4-.75 1.38-1.54 2.85-1.54 3.05 0 3.62 2.01 3.62 4.62v4.69z"/></svg>
                 </span>
             </a>
             <a href="https://twitter.com/betse_ab" target="_blank" aria-label="Twitter" class="group">
-                <span class="flex items-center justify-center w-10 h-10 rounded-full bg-[#1DA1F2] hover:scale-110 transition-transform shadow-lg">
+                <span class="flex items-center justify-center w-6 md:w-10 h-6 md:h-10 p-1 rounded-full bg-[#1DA1F2] hover:scale-110 transition-transform shadow-lg">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 5.924c-.793.352-1.646.59-2.542.698a4.48 4.48 0 0 0 1.963-2.475 8.94 8.94 0 0 1-2.828 1.082A4.48 4.48 0 0 0 11.1 9.03a12.72 12.72 0 0 1-9.23-4.68 4.48 4.48 0 0 0 1.39 5.98A4.44 4.44 0 0 1 2 9.097v.057a4.48 4.48 0 0 0 3.6 4.39c-.4.11-.82.17-1.25.17-.31 0-.6-.03-.89-.08a4.48 4.48 0 0 0 4.18 3.11A8.98 8.98 0 0 1 2 19.54a12.7 12.7 0 0 0 6.88 2.02c8.26 0 12.78-6.84 12.78-12.78 0-.2 0-.39-.01-.58a9.1 9.1 0 0 0 2.23-2.3z"/></svg>
                 </span>
             </a>
             <a href="https://github.com/betseab1" target="_blank" aria-label="GitHub" class="group">
-                <span class="flex items-center justify-center w-10 h-10 rounded-full bg-black hover:scale-110 transition-transform shadow-lg">
+                <span class="flex items-center justify-center w-6 md:w-10 h-6 md:h-10 p-1 rounded-full bg-black hover:scale-110 transition-transform shadow-lg">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.48 2.87 8.28 6.84 9.63.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.38-2.03 1.01-2.75-.1-.26-.44-1.3.1-2.7 0 0 .83-.27 2.75 1.02a9.36 9.36 0 0 1 5 0c1.92-1.29 2.75-1.02 2.75-1.02.54 1.4.2 2.44.1 2.7.63.72 1.01 1.63 1.01 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>
                 </span>
             </a>
             <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram" class="group">
-                <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 hover:scale-110 transition-transform shadow-lg">
+                <span class="flex items-center justify-center w-6 md:w-10 h-6 md:h-10 p-1 rounded-full bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 hover:scale-110 transition-transform shadow-lg">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5zm4.25 2.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.13 1.12a1.13 1.13 0 1 1-2.25 0 1.13 1.13 0 0 1 2.25 0z"/></svg>
                 </span>
             </a>
