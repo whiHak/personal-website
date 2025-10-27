@@ -71,7 +71,6 @@ onUnmounted(() => {
     clearInterval(autoAdvanceInterval);
 });
 </script>
-
 <template>
     <section
         class="relative overflow-hidden max-w-[1920px] min-h-[500px] px-5 lg:px-15 2xl:px-40 bg-white lg:min-h-[710px] 2xl:min-h-[790px]  mx-auto">
