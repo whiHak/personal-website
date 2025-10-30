@@ -158,7 +158,7 @@ onUnmounted(() => {
                                 class="absolute transition-all duration-700 ease-in-out transform"
                                 :class="getPositionClass(index)">
                                 <div
-                                    class="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg lg:w-[320px] 2xl:w-[380px] relative">
+                                    class="group bg-white/90 hover:bg-zeleman-orange-500 transition backdrop-blur-sm rounded-lg shadow-lg lg:w-[320px] 2xl:w-[380px] relative cursor-pointer">
                                     <div class="flex items-center mt-6  p-2">
                                         <!-- Quote Text -->
                                         <div class="flex-1 ">
@@ -166,11 +166,11 @@ onUnmounted(() => {
                                             <Icon name="fa6-solid:quote-left"
                                                 class="w-5 h-5 text-yellow-500 absolute top-2 left-3" />
                                             <div class="p-5 space-y-3">
-                                                <p class="text-xs text-gray-700 italic line-clamp-8">"{{ testimonial.text }}"</p>
+                                                <p class="text-xs text-gray-700 group-hover:text-gray-200 italic line-clamp-8">"{{ testimonial.text }}"</p>
                                                 <div class="mt-2">
-                                                    <p class="text-xs font-medium text-gray-900">{{ testimonial.name }}
+                                                    <p class="text-xs font-medium text-gray-900 group-hover:text-gray-100">{{ testimonial.name }}
                                                     </p>
-                                                    <p class="text-xs text-gray-500">{{ testimonial.title }}</p>
+                                                    <p class="text-xs text-gray-500 group-hover:text-gray-200">{{ testimonial.title }}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,16 +183,25 @@ onUnmounted(() => {
                                 </div>
                             </div>
 
+                            <!-- Left and right arrows -->
+                            <div class="absolute -bottom-50 left-1/2 transform -translate-y-1/2 flex space-x-4 z-40">
+                                <button @click="prevTestimonial" class="group flex items-center p-3 bg-zeleman-accent-500 hover:bg-zeleman-orange-500 rounded-full shadow-md cursor-pointer">
+                                    <Icon name="fa6-solid:chevron-left" class="w-4 h-4 text-white" />
+                                </button>
+                                <button @click="nextTestimonial" class="group flex items-center p-3 bg-zeleman-accent-500 hover:bg-zeleman-orange-500 rounded-full shadow-md cursor-pointer">
+                                    <Icon name="fa6-solid:chevron-right" class="w-4 h-4 text-white" />
+                                </button>
+                            </div>
 
                             <!-- Pagination Dots -->
-                            <div class="absolute -bottom-40 left-1/2 transform -translate-x-1/2 flex space-x-2 z-40">
+                            <!-- <div class="absolute -bottom-40 left-1/2 transform -translate-x-1/2 flex space-x-2 z-40">
                                 <button v-for="(testimonial, index) in testimonials" :key="index"
                                     @click="currentIndex = index"
                                     class="w-3 h-3 rounded-full transition-all duration-300" :class="{
                                         'bg-primary-green px-5': currentIndex === index,
                                         'bg-gray-300': currentIndex !== index
                                     }"></button>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
