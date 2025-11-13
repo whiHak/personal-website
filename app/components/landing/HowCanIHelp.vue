@@ -20,7 +20,6 @@
           <p class="text-gray-700 text-sm">Node.JS, Python</p>
         </div>
       </div>
-      
       <div class="flex items-center gap-6 bg-[#6C4DFF]/90 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform">
         <div class="flex items-center justify-center w-24 h-24 rounded-full bg-[#6C4DFF] shadow-lg">
           <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="8"/><path d="M9 12h6M12 9v6"/></svg>
