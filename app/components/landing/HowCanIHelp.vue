@@ -1,6 +1,7 @@
 <template>
   <section class="w-full flex flex-col md:flex-row items-center justify-center py-16 px-4 md:px-12 bg-white gap-12">
     <!-- Left: Service Cards -->
+     
     <div class="flex flex-col gap-8 w-full md:w-1/2 max-w-md">
       <div class="flex items-center gap-6 bg-[#F76C39]/90 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform">
         <div class="flex items-center justify-center w-24 h-24 rounded-full bg-[#F76C39] shadow-lg">
