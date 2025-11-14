@@ -45,6 +45,7 @@ onUnmounted(() => {
   clearInterval(intervalId);
 });
 </script>
+
 <template>
   <section class="w-full flex flex-col items-center justify-center py-16 bg-white">
     <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center">Featured Projects</h2>
