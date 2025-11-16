@@ -29,6 +29,15 @@ const projects = [
     mobileWidth: '220px',
     mobileHeight: 'full',
   },
+  {
+    desktop: '/images/project-4-Desktop.png',
+    mobile: '/images/project-5-Mobile.png',
+    title: 'Project 4',
+    desktopWidth: '780px',
+    desktopHeight: 'auto',
+    mobileWidth: '220px',
+    mobileHeight: 'full',
+  }
 ];
 
 const currentIndex = ref(0);
