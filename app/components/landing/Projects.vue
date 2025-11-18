@@ -37,6 +37,15 @@ const projects = [
     desktopHeight: 'auto',
     mobileWidth: '220px',
     mobileHeight: 'full',
+  },
+  {
+    desktop: '/images/project-6-Desktop.png',
+    mobile: '/images/project-6-Mobile.png',
+    title: 'Project 4',
+    desktopWidth: '780px',
+    desktopHeight: 'auto',
+    mobileWidth: '220px',
+    mobileHeight: 'full',
   }
 ];
 
@@ -93,7 +102,7 @@ onUnmounted(() => {
         :key="idx"
         @click="currentIndex = idx"
         :class="[
-          'w-4 h-4 rounded-full border-2 transition-all duration-300',
+          'w-4 h-4 rounded-full border-2 transition-all duration-300 cursor-pointer',
           currentIndex === idx ? 'bg-primary-green border-primary-green scale-110' : 'bg-gray-300 border-gray-300'
         ]"
         aria-label="Go to project"
