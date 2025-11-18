@@ -62,7 +62,7 @@ const isActive = (path) => {
         <!-- Centered Navigation Links -->
         <div class="hidden sm:flex justify-center space-x-8 flex-grow">
           <a
-            href="/about-me"
+            href="/about"
             title="About Me"
             :class="{
               'border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:text-zeleman-orange-500 hover:border-zeleman-orange-500': true,
