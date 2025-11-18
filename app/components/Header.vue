@@ -66,7 +66,7 @@ const isActive = (path) => {
             title="About Me"
             :class="{
               'border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:text-zeleman-orange-500 hover:border-zeleman-orange-500': true,
-              'text-zeleman-orange-500 border-b-2 border-zeleman-orange-500': isActive('/about-me')
+              'text-zeleman-orange-500 border-b-2 border-zeleman-orange-500': isActive('/about')
             }"
             >About Me</a
           >
@@ -155,11 +155,11 @@ const isActive = (path) => {
                 class="flex flex-col sm:hidden justify-center space-y-2 flex-grow"
               >
                 <a
-                  href="/about-me"
+                  href="/about"
                   title="About Me"
                   :class="{
                     'border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-md w-max font-medium hover:text-zeleman-orange-500 hover:border-zeleman-orange-500': true,
-                    'text-zeleman-orange-500 border-b-2 border-zeleman-orange-500': isActive('/about-me')
+                    'text-zeleman-orange-500 border-b-2 border-zeleman-orange-500': isActive('/about')
                   }"
                   >About Me</a
                 >

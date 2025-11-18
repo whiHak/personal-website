@@ -1,7 +1,7 @@
 <template>
   <section class="w-full min-h-screen py-24 px-2 md:px-10 lg:px-24 bg-gradient-to-br from-zeleman-orange-200 via-green-50 to-yellow-50 flex flex-col items-center">
     <h1 class="text-5xl md:text-6xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-green-500 to-yellow-400 tracking-tight mb-20 animate-gradient-x">
-      🚀 Portfolio Projects
+      🚀 Projects
     </h1>
     <div class="flex flex-col gap-24 w-full max-w-6xl">
       <!-- Project 1: Zeleman Academy -->

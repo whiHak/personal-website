@@ -69,31 +69,35 @@ onUnmounted(() => {
     <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center">Featured Projects</h2>
     <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
       <!-- Macbook Frame -->
-      <div class="relative left-0 lg:left-20 w-[410px] md:w-[810px] lg:w-[910px] aspect-[16/10] flex items-center justify-center">
-        <img
-          src="/images/macbook-frame.png"
-          alt="Macbook Frame"
-          class="absolute w-full h-full object-cover z-20 pointer-events-none select-none"
-        />
-        <img
-          :src="projects[currentIndex].desktop"
-          :alt="projects[currentIndex].title + ' Desktop'"
-          class="absolute md:top-[4%] w-[355px] md:w-[695px] lg:w-[780px] h-auto object-cover shadow-lg z-10 transition-all duration-700"
-        />
-      </div>
+       <NuxtLink to="/projects">
+         <div class="relative left-0 lg:left-20 w-[410px] md:w-[810px] lg:w-[910px] aspect-[16/10] flex items-center justify-center cursor-pointer">
+           <NuxtImg
+             src="/images/macbook-frame.png"
+             alt="Macbook Frame"
+             class="absolute w-full h-full object-cover z-20 pointer-events-none select-none"
+           />
+           <NuxtImg
+             :src="projects[currentIndex].desktop"
+             :alt="projects[currentIndex].title + ' Desktop'"
+             class="absolute md:top-[4%] w-[355px] md:w-[695px] lg:w-[780px] h-auto object-cover shadow-lg z-10 transition-all duration-700"
+           />
+         </div>
+       </NuxtLink>
       <!-- iPhone Frame -->
-      <div class="relative left-35 md:left-75 lg:-left-30 -top-50 md:-top-70 lg:top-40 z-20 w-[120px] md:w-[250px] aspect-[9/19] md:h-full flex items-center justify-center">
-        <img
-          src="/images/Iphone-frame.png"
-          alt="iPhone Frame"
-          class="absolute w-full h-full object-cover z-20 pointer-events-none select-none"
-        />
-        <img
-          :src="projects[currentIndex].mobile"
-          :alt="projects[currentIndex].title + ' Mobile'"
-          class="absolute top-[10%] w-[107px]  md:w-[220px] h-auto object-cover rounded-md shadow-md z-10 transition-all duration-700"
-        />
-      </div>
+      <NuxtLink to="/projects">
+        <div class="relative left-35 md:left-75 lg:-left-30 -top-50 md:-top-70 lg:top-40 z-20 w-[120px] md:w-[250px] aspect-[9/19] md:h-full flex items-center justify-center cursor-pointer">
+          <NuxtImg
+            src="/images/Iphone-frame.png"
+            alt="iPhone Frame"
+            class="absolute w-full h-full object-cover z-20 pointer-events-none select-none"
+          />
+          <NuxtImg
+            :src="projects[currentIndex].mobile"
+            :alt="projects[currentIndex].title + ' Mobile'"
+            class="absolute top-[10%] w-[107px]  md:w-[220px] h-auto object-cover rounded-md shadow-md z-10 transition-all duration-700"
+          />
+        </div>
+      </NuxtLink>
     </div>
     <!-- Carousel Dots -->
     <div class="flex justify-center mt-8 space-x-3">
