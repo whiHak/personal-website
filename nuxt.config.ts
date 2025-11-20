@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/ui',
     '@nuxtjs/seo',
-    'nuxt-vitalizer',
+    // 'nuxt-vitalizer',
   ],
   ui: {
     colorMode: false, 
@@ -48,8 +48,8 @@ export default defineNuxtConfig({
     description: 'Welcome to my personal website! I am Betselot Abraham, a passionate software developer and tech enthusiast. Here, you can explore my projects, read my blog posts, and learn more about my journey in the world of technology.',
     indexable: true,
   },
-  vitalizer: {
-    // Remove the render-blocking entry CSS
-    disableStylesheets: 'entry'
-  }
+  // vitalizer: {
+  //   // Remove the render-blocking entry CSS
+  //   disableStylesheets: 'entry'
+  // }
 })
