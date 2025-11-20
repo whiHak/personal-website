@@ -73,7 +73,37 @@
 </template>
 
 <script setup>
-// No additional JS needed for static showcase
+
+
+useHead({
+  title: 'Projects - Betselot Abraham',
+  meta: [
+    {
+      name: 'description',
+      content: 'Explore the projects of Betselot Abraham, showcasing skills in software engineering and development.',
+    },
+    {
+      name: 'keywords',
+      content: 'Betselot Abraham, Projects, Software Engineer, Portfolio, Web Development, AI, Offshoring, Storytelling, Film, Technology, Pan-African Network, Zeleman Academy, MeliaCRED, Software Development, Coding, GitHub, LinkedIn, Betselot Resume, Betselot Skills',
+    },
+    {
+      name: 'author',
+      content: 'Betselot Abraham',
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1',
+    },
+    {
+      name: 'robots',
+      content: 'index, follow',
+    },
+    {
+      name: 'theme-color',
+      content: '#ffffff',
+    },
+  ],
+});
 </script>
 
 <style scoped>

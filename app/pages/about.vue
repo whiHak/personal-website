@@ -96,7 +96,36 @@
   </template>
   
   <script setup>
-  // Personal info can be managed here if needed
+
+  useHead({
+    title: 'About Betselot Abraham - Full Stack Developer & AI Integrator',
+    meta: [
+      {
+        name: 'description',
+        content: 'Learn more about Betselot Abraham, a passionate Full Stack Developer and AI Integrator. Discover his skills, projects, and fun facts!',
+      },
+      {
+        name: 'keywords',
+        content: 'Betselot Abraham, About, Full Stack Developer, AI Integrator, Portfolio, Skills, Projects, Fun Facts, Web Developer, Software Engineer, Technology Enthusiast, Programming, Software Development, Coding, GitHub, LinkedIn, Betselot Resume, Betselot Projects, Betselot Skills',
+      },
+      {
+        name: 'author',
+        content: 'Betselot Abraham',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
+      {
+        name: 'robots',
+        content: 'index, follow',
+      },
+      {
+        name: 'theme-color',
+        content: '#ffffff',
+      },
+    ],
+  });
   </script>
   
   <style scoped>

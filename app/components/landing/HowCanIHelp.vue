@@ -8,7 +8,7 @@
           <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18"/></svg>
         </div>
         <div>
-          <h3 class="text-xl font-bold text-gray-900 mb-1">Web Development</h3>
+          <p class="text-xl font-bold text-gray-900 mb-1">Web Development</p>
           <p class="text-gray-700 text-sm">Vue, React, Nuxt.JS, & Next.JS</p>
         </div>
       </div>
@@ -17,7 +17,7 @@
           <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
         </div>
         <div>
-          <h3 class="text-xl font-bold text-gray-900 mb-1">Backend Development</h3>
+          <p class="text-xl font-bold text-gray-900 mb-1">Backend Development</p>
           <p class="text-gray-700 text-sm">Node.JS, Python</p>
         </div>
       </div>
@@ -26,7 +26,7 @@
           <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="8"/><path d="M9 12h6M12 9v6"/></svg>
         </div>
         <div>
-          <h3 class="text-xl font-bold text-gray-900 mb-1">AI Integration</h3>
+          <p class="text-xl font-bold text-gray-900 mb-1">AI Integration</p>
           <p class="text-gray-700 text-sm">Assistant, Voice, & Agents</p>
         </div>
       </div>
