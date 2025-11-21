@@ -220,61 +220,111 @@ const isActive = (path) => {
 
               <!-- Social Media Icons -->
               <div class="md:hidden items-center flex space-x-4">
-                <div
-                  class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+                <NuxtLink
+                  to="https://github.com/whiHak"
+                  target="_blank"
                 >
-                  <Icon
-                    name="mdi:github"
-                    class="h-5 w-5 text-zeleman-orange-500"
-                  />
-                </div>
-                <div
-                  class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+                  <div
+                    class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+                    @click="navigateTo('https://github.com/whiHak', '_blank')"
+                  >
+                    <Icon
+                      name="mdi:github"
+                      class="h-5 w-5 text-zeleman-orange-500"
+                    />
+                  </div>
+                </NuxtLink>
+                <NuxtLink
+                  to="https://www.linkedin.com/in/betselot-abraham-184753285/"
+                  target="_blank"
                 >
-                  <Icon
-                    name="mdi:linkedin"
-                    class="h-5 w-5 text-zeleman-orange-500"
-                  />
-                </div>
-                <div
-                  class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+                  <div
+                    class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+                    @click="navigateTo('https://www.linkedin.com/in/betselot-abraham-184753285/', '_blank')"
+                  >
+                    <Icon
+                      name="mdi:linkedin"
+                      class="h-5 w-5 text-zeleman-orange-500"
+                    />
+                  </div>
+                </NuxtLink>
+                <NuxtLink
+                  to="https://www.instagram.com/betse_ab"
+                  target="_blank"
                 >
-                  <Icon
-                    name="mdi:instagram"
-                    class="h-5 w-5 text-zeleman-orange-500"
-                  />
-                </div>
-                <div
-                  class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+                  <div
+                    class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+                    @click="navigateTo('https://www.instagram.com/betse_ab', '_blank')"
+                  >
+                    <Icon
+                      name="mdi:instagram"
+                      class="h-5 w-5 text-zeleman-orange-500"
+                    />
+                  </div>
+                </NuxtLink>
+                <NuxtLink
+                  to="https://t.me/betse_ab"
+                  target="_blank"
                 >
-                  <Icon name="mdi:telegram" class="h-5 w-5 text-zeleman-orange-500" />
-                </div>
+                  <div
+                    class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+                    @click="navigateTo('https://t.me/betse_ab', '_blank')"
+                  >
+                    <Icon
+                      name="mdi:telegram"
+                      class="h-5 w-5 text-zeleman-orange-500"
+                    />
+                  </div>
+                </NuxtLink>
               </div>
             </div>
           </template>
         </UDrawer>
         <!-- Social Media Icons -->
         <div class="lg:flex items-center hidden space-x-4">
-          <div
-            class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+          <NuxtLink
+            to="https://github.com/whiHak"
+            target="_blank"
           >
-            <Icon name="mdi:github" class="h-5 w-5 text-zeleman-orange-500" />
-          </div>
-          <div
-            class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+            <div
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer"
+              @click="navigateTo('https://github.com/whiHak', '_blank')"
+            >
+              <Icon name="mdi:github" class="h-5 w-5 text-zeleman-orange-500" />
+            </div>
+          </NuxtLink>
+          <NuxtLink
+            to="https://www.linkedin.com/in/betselot-abraham-184753285/"
+            target="_blank"
           >
-            <Icon name="mdi:linkedin" class="h-5 w-5 text-zeleman-orange-500" />
-          </div>
-          <div
-            class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+            <div
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+              @click="navigateTo('https://www.linkedin.com/in/betselot-abraham-184753285/', '_blank')"
+            >
+              <Icon name="mdi:linkedin" class="h-5 w-5 text-zeleman-orange-500" />
+            </div>
+          </NuxtLink>
+          <NuxtLink
+            to="https://www.instagram.com/betse_ab"
+            target="_blank"
           >
-            <Icon name="mdi:instagram" class="h-5 w-5 text-zeleman-orange-500" />
-          </div>
-          <div
-            class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+            <div
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+              @click="navigateTo('https://www.instagram.com/betse_ab', '_blank')"
+            >
+              <Icon name="mdi:instagram" class="h-5 w-5 text-zeleman-orange-500" />
+            </div>
+          </NuxtLink>
+          <NuxtLink
+            to="https://t.me/betse_ab"
+            target="_blank"
           >
-            <Icon name="mdi:telegram" class="h-5 w-5 text-zeleman-orange-500" />
-          </div>
+            <div
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer"
+            >
+              <Icon name="mdi:telegram" class="h-5 w-5 text-zeleman-orange-500" />
+            </div>
+          </NuxtLink>
         </div>
 
         <Icon
@@ -296,26 +346,46 @@ const isActive = (path) => {
             ref="dropdownRef"
             class="absolute right-4.5 top-16 lg:flex flex-col items-center space-y-4"
           >
+          <NuxtLink
+            to="https://github.com/whiHak"
+            target="_blank"
+          >
             <div
-              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform"
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform mb-1"
             >
               <Icon name="mdi:github" class="h-5 w-5 text-zeleman-orange-500" />
             </div>
+          </NuxtLink>
+          <NuxtLink
+            to="https://www.linkedin.com/in/betselot-abraham-184753285/"
+            target="_blank"
+          > 
             <div
-              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer hover:scale-110 transition-transform"
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 hover:shadow-md text-white cursor-pointer hover:scale-110 transition-transform mb-1 "
             >
               <Icon name="mdi:linkedin" class="h-5 w-5 text-zeleman-orange-500" />
             </div>
+          </NuxtLink>
+          <NuxtLink
+            to="https://www.instagram.com/betse_ab"
+            target="_blank"
+          >
             <div
-              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform"
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform mb-1"
             >
               <Icon name="mdi:instagram" class="h-5 w-5 text-zeleman-orange-500" />
             </div>
+          </NuxtLink>
+          <NuxtLink
+            to="https://t.me/betse_ab"
+            target="_blank"
+          >   
             <div
-              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform"
+              class="flex items-center justify-center px-1.5 py-1.5 rounded-sm bg-zeleman-orange-200 text-white cursor-pointer hover:scale-110 transition-transform mb-1"
             >
               <Icon name="mdi:telegram" class="h-5 w-5 text-zeleman-orange-500" />
             </div>
+          </NuxtLink>
           </div>
         </Transition>
       </div>
