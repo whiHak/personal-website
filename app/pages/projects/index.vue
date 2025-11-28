@@ -1,6 +1,6 @@
 <template>
   <section class="w-full min-h-screen py-24 px-2 md:px-10 lg:px-24 bg-gradient-to-br from-zeleman-orange-200 via-green-50 to-yellow-50 flex flex-col items-center">
-    <h1 class="text-5xl md:text-6xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-green-500 to-yellow-400 tracking-tight mb-20 animate-gradient-x">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-green-500 to-yellow-400 tracking-tight mb-20 animate-gradient-x">
       🚀 Projects
     </h1>
     <div class="flex flex-col gap-24 w-full max-w-6xl">
@@ -21,18 +21,19 @@
         </div>
         <!-- Description Area -->
         <div class="w-full lg:w-1/2 p-10 flex flex-col justify-center text-left gap-6 bg-gradient-to-br from-white via-yellow-50 to-orange-50">
-          <h2 class="text-3xl md:text-4xl font-extrabold mb-2 text-orange-600">Zeleman Academy</h2>
-          <p class="text-lg text-gray-800 mb-2 leading-relaxed">
+          <h2 class="text-2xl md:text-3xl font-extrabold mb-2 text-orange-600">Zeleman Academy</h2>
+          <p class="text-md text-gray-800 mb-2 leading-relaxed">
             Where African storytelling meets technology. Zeleman Academy empowers Pan-African creatives with hands-on training in film, photography, advertising, and digital innovation. Learn, create, and innovate in a world-class, vibrant environment.
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-4 py-2 rounded-full bg-orange-100 text-orange-700 font-semibold">Storytelling</span>
-            <span class="px-4 py-2 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Film & Video</span>
-            <span class="px-4 py-2 rounded-full bg-green-100 text-green-700 font-semibold">AI/Tech</span>
-            <span class="px-4 py-2 rounded-full bg-zeleman-orange-100 text-orange-600 font-semibold">Pan-African Network</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-orange-100 text-orange-700 font-semibold">Storytelling</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-yellow-100 text-yellow-700 font-semibold">Film & Video</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-green-100 text-green-700 font-semibold">AI/Tech</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-zeleman-orange-100 text-orange-600 font-semibold">Pan-African Network</span>
           </div>
-          <a href="https://www.zelemanacademy.com/" target="_blank" rel="noopener" class="inline-block px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-xl font-bold shadow-md text-lg transition">
+          <a href="https://www.zelemanacademy.com/" target="_blank" rel="noopener" class="group flex items-center gap-3 px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-xl font-bold shadow-md text-base transition">
             Visit Zeleman Academy
+            <Icon name="mdi:arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </a>
         </div>
       </div>
@@ -53,18 +54,19 @@
         </div>
         <!-- Description Area -->
         <div class="w-full lg:w-1/2 p-10 flex flex-col justify-center text-left gap-6 bg-gradient-to-br from-white via-green-50 to-yellow-50">
-          <h2 class="text-3xl md:text-4xl font-extrabold mb-2 text-green-700">MeliaCRED</h2>
-          <p class="text-lg text-gray-800 mb-2 leading-relaxed">
+          <h2 class="text-2xl md:text-3xl font-extrabold mb-2 text-green-700">MeliaCRED</h2>
+          <p class="text-md text-gray-800 mb-2 leading-relaxed">
             MeliaCRED bridges AI innovation and African development. We empower businesses and talent with hands-on AI training, offshoring strategy, and expert-driven research partnerships. Learn, connect, and lead the AI transformation across borders.
           </p>
           <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-4 py-2 rounded-full bg-green-100 text-green-700 font-semibold">AI Training</span>
-            <span class="px-4 py-2 rounded-full bg-yellow-100 text-yellow-700 font-semibold">Offshoring</span>
-            <span class="px-4 py-2 rounded-full bg-orange-100 text-orange-600 font-semibold">Research</span>
-            <span class="px-4 py-2 rounded-full bg-gray-100 text-gray-800 font-semibold">Pan-African</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-green-100 text-green-700 font-semibold">AI Training</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-yellow-100 text-yellow-700 font-semibold">Offshoring</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-orange-100 text-orange-600 font-semibold">Research</span>
+            <span class="px-4 py-2 text-sm rounded-full bg-gray-100 text-gray-800 font-semibold">Pan-African</span>
           </div>
-          <a href="https://meliacred.com/" target="_blank" rel="noopener" class="inline-block px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold shadow-md text-lg transition">
+          <a href="https://meliacred.com/" target="_blank" rel="noopener" class="group flex items-center gap-3 px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold shadow-md text-base transition">
             Visit MeliaCRED
+            <Icon name="mdi:arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </a>
         </div>
       </div>
